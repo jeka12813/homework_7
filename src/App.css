@@ -1,0 +1,216 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+ 
+  font-family:Arial, Helvetica, sans-serif;
+  color:rgb(60, 60, 60);
+ 
+}
+
+.container{
+  max-width: 800px;
+  padding: 8px;
+  margin: 0 auto;
+}
+
+.formCreate{
+  
+ border: 2px solid red;
+  
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+
+}
+
+.formCreate h3{
+text-align: center;
+}
+
+.sortPost{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sortPost p{
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+.checkedMessage{
+  margin: 10px auto;
+  background-color: rgb(228, 228, 228);
+  text-align: center;
+  
+  padding: 20px 30px;
+  
+}
+
+h2{
+  text-align: center;
+}
+span{
+  font-size: 14px;
+}
+
+.true{
+  display: none;
+}
+.false{
+  display: block;
+  color:red;
+}
+
+
+
+.title{
+  margin: 10px auto;
+  border: 2px solid grey;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 0.759);
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.inputNone{
+  width: 5%;
+}
+
+p{
+  width: 21%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.btnNone{ 
+  width: 10%;
+  font-size: 16px;
+ 
+}
+
+
+
+
+.customLink{  
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.white{
+  color:grey;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.postsTitle{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.theam{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:0 10px;
+  
+  width: 300px;
+}
+
+header{
+  
+  margin: 0 auto;
+  background-color:rgba(207, 204, 200, 0.553);
+  
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header a{
+  padding: 0 20px;
+}
+
+.home{
+  text-align: center;
+ 
+ }
+ .home h2,
+ .about h2{
+   margin-bottom: 15px;
+ }
+ .home p,
+ .about p{
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+   font-size: 16px;
+   margin-bottom: 20px;
+ }
+ 
+ 
+ .about{
+   margin: 0 auto;
+ }
+ 
+ 
+ .about ul{
+ display: flex;
+ justify-content: center;
+ border-bottom:1px gray solid;
+ padding-bottom: 5px;
+margin-bottom: 10px;
+ }
+
+ .about li{
+   padding: 0 10px;
+   
+ }
+
+
+ .infoPost h2{
+   text-align: center;
+   margin-bottom: 10px;
+ }
+ 
+
+ .infoPost__inner{
+   border: 1px solid red;
+   padding: 10px;
+   width: 500px;
+   margin: 0 auto;
+   text-align: center;
+   margin-bottom: 20px;
+ }
+
+ .anotherPosts{
+  column-count: 2;
+  height: 800px;
+  font-size: 12.5px;
+ }
+
+ .loginForm{
+  max-width: 500px;
+  margin: 0 auto;
+  
+}
+
+.loginPage{
+  height: 100vh;
+}
+
+.loginPage h3{
+margin-bottom: 10px;
+text-align: center;
+}

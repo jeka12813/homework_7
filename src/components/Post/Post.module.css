@@ -1,0 +1,38 @@
+.post{
+    margin: 10px auto;
+    border: 2px solid grey;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.759);
+    display: flex;
+    padding: 10px 20px;  
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.post.checkedPost{
+    border: 2px solid red;
+}
+ 
+
+p{
+    width: 70%;
+    font-size: 14px;
+text-align: start;
+    justify-self: start;
+}
+
+.btnRemove{
+    padding: 3px 10px;
+    align-self: center;
+    width: 10%;
+    font-size: 16px;
+    background-color:rgb(231, 193, 186);
+    border:none;
+    border-radius:3px;
+     cursor: pointer;
+}
+
+
+
+
